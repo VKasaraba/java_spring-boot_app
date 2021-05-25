@@ -1,7 +1,7 @@
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/kasaraba_lab5?serverTimezone=UTC
-    username: root
+    username: volodymyr
     password: kohavyna2017
     driver-class-name: com.mysql.jdbc.Driver
   jpa:

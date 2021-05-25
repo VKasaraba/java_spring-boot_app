@@ -1,5 +1,7 @@
 CREATE SCHEMA IF NOT EXISTS `kasaraba_lab5`;
 USE `kasaraba_lab5` ;
+CREATE USER 'volodymyr'@'%' IDENTIFIED BY 'kohavyna2017';
+GRANT SELECT ON *.* TO 'volodymyr'@'%';
 
 DROP TABLE IF EXISTS `feedback`;
 DROP TABLE IF EXISTS `version_update`;
