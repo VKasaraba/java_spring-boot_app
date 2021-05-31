@@ -14,7 +14,7 @@ spring:
       naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
 
 server:
-  port: 8082
+  port: 8080
 
 management:
   endpoints:
